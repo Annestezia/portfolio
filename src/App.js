@@ -43,9 +43,10 @@ const App = (props) => {
           backgroundRepeat: 'no-repeat'
         }}>
         <a href={project.link} title= "Open repo or  gh-page">
-          <h3 className="project-title">{project.name}</h3>
-          <span className = "description">{project.description}</span>
-          <span className = "overlay"></span>
+          <div className="overlay">
+            <h3 className="project-title">{project.name}</h3>
+            <span className = "description">{project.description}</span>
+          </div>
         </a>
       </div>
     ))}
