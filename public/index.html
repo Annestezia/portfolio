@@ -6,75 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+    name="description"
+    content="Annestezia Web Portfolio"
     />
-    <link rel="apple-touch-icon" href="logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <link rel="apple-touch-icon" href="favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>FCC portfolio</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div class="wrap">
-  <nav>
-    <ul id="navbar">
-      <li><a href="#welcome-section">About</a></li>
-      <li><a href="#a_projects">Projects</a></li>
-    </ul>
-  </nav>
+      <nav>
+        <ul id="navbar">
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#a_projects">Projects</a></li>
+        </ul>
+      </nav>
 
-  <section id="welcome-section">
-    <h1>Portfolio</h1>
-    <p> Hello, I'm Anastasia<br/> a developer<br/> a designer<br/> a d... shh.. =)</p>
-    <div id="confession" class="cofession">
-      <p></p>
+      <section id="welcome-section">    
+        <h2>About</h2>
+
+        <p> Hello, I'm Anastasia<br/> a developer<br/> a designer<br/> a d... shh.. =)</p>
+        <div id="confession" class="cofession">
+          <p></p>
+        </div>
+        <div class="contacts">
+          <a href="https://www.freecodecamp.org/annestezia" id="profile-link" class="contact" target="_blank" title="My Free Code Camp Profile" rel="noopener noreferrer">FCC</a>
+          <!-- <a href="javascript:void(0);" class="contact" title="e-mail" id="email">e-mail</a> -->
+          <a href="https://github.com/annestezia" class="contact" title="My GitHub Profile" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </section>
+
+      <section id="projects">
+        <a class="anchor" id="a_projects"></a>
+        <h2>Projects</h2>
+        <p>Here are some of my projects</p>
+        <div class="container" id="root"></div>    
+      </section>
+
+      <footer>&copy;  Annestezia 2019</footer>
     </div>
-    <div class="contacts">
-      <a href="https://www.freecodecamp.org/annestezia" id="profile-link" class="contact" target="_blank" title="Free Code Camp">FCC</a>
-      <a href="javascript:void(0);" class="contact" title="e-mail" id="email" >e-mail</a>
-      <a href="https://github.com/annestezia" class="contact" title="Github">github</a>
-    </div>
-  </section>
-
-  <section id="projects">
-    <a class="anchor" id="a_projects"></a>
-    <h2>Projects</h2>
-    <p>Here are some of my projects</p>
-    <div class="container" id="root"></div>    
-  </section>
-
-  <footer>&copy;  Annestezia 2019</footer>
-</div>
-
-
-<!-- modal 4 email -->
- <div id="email-modal"  >
-  <span class="close">&times;</span>
-  <p>myemail@domain.com</p>  
-</div>
-    <!-- <div id="root"></div> -->
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
-</html>
+  </html>
