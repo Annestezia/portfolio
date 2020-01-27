@@ -126,11 +126,10 @@ nav {
   h2 {
     font-size: 1.5em;
     line-height: 2;
-
   }
   p{
     line-height: 25px;
-    margin-top: 27px;
+    margin: 30px 0px;
   }
   .contacts {
     margin-top: 3rem;
@@ -155,16 +154,6 @@ nav {
     }
   }
 }
-.me{
-  display: block;
-  width: $photo-size;
-  height: $photo-size;
-  border: 1px solid red;
-  border-radius: 50%;
-  background-color: orange;
-
-
-}
 
 #projects {
   text-align: center;
@@ -175,6 +164,9 @@ nav {
     top: -20vh;
     visibility: hidden;
   }
+  p{
+    margin-bottom: 45px;
+  }
 }
 #root {
   display: grid;
@@ -182,7 +174,7 @@ nav {
   grid-auto-rows: minmax(140px, auto);
   grid-gap: 7px;
   grid-auto-flow: dense;
-  padding: 10px;
+  margin: 10px;
 }
 .project-tile, .project-tile a{
   height: 100%;
