@@ -4,7 +4,7 @@ $darker-red: #c90303;
 $lighter-red: #df1b11;
 $nav-height: 54px;
 $dark: #444;
-$basic-fz:16px;
+$basic-fz:18px;
 $photo-size: 200px;
 
 * {
@@ -101,7 +101,7 @@ nav {
   font-size: 1.2rem;
 
   .welcome-text{
-    line-height: 25px;
+    line-height: 2;
     margin: 30px 0px;
     text-align: left;
   }
@@ -201,7 +201,7 @@ nav {
   .contacts-info{
     display: inline-block;
     text-align: left;
-    line-height:2.5;
+    line-height:2;
     margin: 30px 0px;
  
   }
