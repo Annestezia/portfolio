@@ -93,7 +93,7 @@ export default [
 	{
 		title:"Landing Page Smartwatch",
 		description:"Waypoints.js",
-		link:"https://github.com/Annestezia/fcc-lp",
+		link:"https://annestezia.github.io/fcc-lp/",
 		level:"span-1",
 		bg: landing_page_bg
 	}
