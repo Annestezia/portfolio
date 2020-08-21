@@ -11,16 +11,18 @@
     />
     <link rel="apple-touch-icon" href="favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Portfolio</title>
-  </head>
-  <body>
+    <title>Portfolio | Anastasia Vlasova</title>
+    <link href="https://cdn.jsdelivr.net/npm/dripicons@2.0.0/webfont/webfont.min.css" rel="stylesheet">
+  </head> 
+  <body id="home">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div class="wrap">
       <nav>
         <ul id="navbar">
-          <li><a href="#welcome-section">About</a></li>
-          <li><a href="#a_projects">Projects</a></li>
-          <li><a href="#a_contacts">Contacts</a></li>
+          <li><a href="#welcome-section"><i class="dripicons-information"></i><span class="nav-link__text">About</span></a></li>
+          <!-- <li><a href="#a_skills">Skills</a></li> -->
+          <li><a href="#a_projects"><i class="dripicons-code"></i><span class="nav-link__text">Projects</span></a></li>
+          <li><a href="#a_contacts"><i class="dripicons-mail"></i><span class="nav-link__text">Contacts</span></a></li>
         </ul>
       </nav>
 
@@ -42,13 +44,20 @@
         </div>        
         <div class="container" id="root"></div>    
       </section>
-
+      <section id="skills-section">
+        <a class="anchor" id="a_skills"></a>
+        <h2>skills</h2>
+        <div class="skills-text">
+          <p>Here  is some of my projects</p>
+        </div>        
+           
+      </section>
       <section id="contacts-section">
         <a class="anchor" id="a_contacts"></a>    
         <h2>Contacts</h2>
         <p class="contacts-text">Get in touch</p>        
         <address class="contacts-info">
-            Email: <a href="mailto:anastasia.v.vlasova@gmail.com">Annestezia</a><br>  
+            Email: <a href="mailto:anastasia.v.vlasova@gmail.com">@Annestezia</a><br>  
         </address>
       </section>
       <footer>&copy;  Annestezia 2019</footer>
