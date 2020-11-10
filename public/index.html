@@ -7,54 +7,78 @@
     <meta name="theme-color" content="#000000" />
     <meta
     name="description"
-    content="Anastasia Vlasova. Portfolio."
+    content="Anastasia Vlasova. Web developer. Portfolio."
     />
     <link rel="apple-touch-icon" href="favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Portfolio | Anastasia Vlasova</title>
-    <link href="https://cdn.jsdelivr.net/npm/dripicons@2.0.0/webfont/webfont.min.css" rel="stylesheet">
   </head> 
   <body id="home">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div class="wrap">
       <nav>
         <ul id="navbar">
-          <li><a href="#welcome-section"><i class="dripicons-information"></i><span class="nav-link__text">About</span></a></li>
+          <li><a href="#welcome-section"><span class="nav-link__text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-11v6h2v-6h-2zm0-4v2h2V7h-2z" fill="#efefef"/></svg>About</span></a></li>
           <!-- <li><a href="#a_skills">Skills</a></li> -->
-          <li><a href="#a_projects"><i class="dripicons-code"></i><span class="nav-link__text">Projects</span></a></li>
-          <li><a href="#a_contacts"><i class="dripicons-mail"></i><span class="nav-link__text">Contacts</span></a></li>
+          <li><a href="#a_projects"><span class="nav-link__text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm13.464 12.536L20 12l-3.536-3.536L15.05 9.88 17.172 12l-2.122 2.121 1.414 1.415zM6.828 12L8.95 9.879 7.536 8.464 4 12l3.536 3.536L8.95 14.12 6.828 12zm4.416 5l3.64-10h-2.128l-3.64 10h2.128z" fill="#efefef"/></svg>Projects</span></a></li>
+          <li><a href="#a_contacts"><span class="nav-link__text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H6a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2v-2H6a1 1 0 0 0 0 2h13zm-7-10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-3 4h6a3 3 0 0 0-6 0z" fill="#efefef"/></svg>Contacts</span></a></li>
         </ul>
       </nav>
 
-      <section id="welcome-section">    
-        <h2>About</h2>
+      <section id="welcome-section" class ="about">    
+        <h1 class="section-heading about__heading">About</h1>
 
-        <p class="welcome-text"> Hello, I'm Anastasia<br/>55% developer<br/> 35% designer<br/> 11% "."</p>
-        <div class="welcome-links">
-          <a href="https://github.com/annestezia" class="link" title="My GitHub Profile" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.freecodecamp.org/annestezia" id="profile-link" class="contact" target="_blank" rel="noopener noreferrer" title="My Free Code Camp Profile" rel="noopener noreferrer">FCC</a>
+        <div class="about__text"> 
+          <p>Hello, I'm Anastasia, a <b class="emphasis">web-developer</b>. I love what I do and want to make the world a better place in the process.</p>
+          <p>My secret dream is to <b class="emphasis">#makethewebgreatagain</b>, i.e. less animated, more user-friendly, better perfomance with lesser resources and more appropriate for it's primary goal, which is getting information fast and concise.</p> 
         </div>
+          <div class="about__details">
+            <div class="about__summary  summary">
+              <h3 class="emphasis">Summary</h3>
+              <p class="summary__text">55% developer<br/> 25% designer<br/> 21% "."</p>
+
+              <div class="summary__links">
+                <a href="https://github.com/annestezia" class="link" title="My GitHub Profile" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.freecodecamp.org/annestezia" id="profile-link" class="contact" target="_blank" rel="noopener noreferrer" title="My Free Code Camp Profile" rel="noopener noreferrer">FCC</a>
+              </div>          
+            </div>
+
+            <div id="skills" class="about__skills-list">
+              <h3>Skills</h3>
+              <span class="about__skill badge">HTML5</span>
+              <span class="about__skill badge">CSS3</span>
+              <span class="about__skill badge">Vanilla JS</span>
+              <span class="about__skill badge">React</span>
+              <span class="about__skill badge">jQuery</span>
+              <span class="about__skill badge">Git</span>
+              <span class="about__skill badge">SASS</span>
+              <span class="about__skill badge">Node.js</span>
+              <span class="about__skill badge">Adaptive design</span>
+            
+            </div>            
+          </div>
+
       </section>
 
-      <section id="projects-section">
+      <section id="projects-section" class="projects">
         <a class="anchor" id="a_projects"></a>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <div class="projects-text">
-          <p>Here  is some of my projects</p>
+          <p>Here you can find some of my projects</p>
         </div>        
         <div class="container" id="root"></div>    
       </section>
-      <section id="skills-section">
+      <!-- <section id="skills-section">
         <a class="anchor" id="a_skills"></a>
         <h2>skills</h2>
         <div class="skills-text">
           <p>Here  is some of my projects</p>
         </div>        
            
-      </section>
+      </section> -->
       <section id="contacts-section">
         <a class="anchor" id="a_contacts"></a>    
-        <h2>Contacts</h2>
+        <h1>Contacts</h1>
         <p class="contacts-text">Get in touch</p>        
         <address class="contacts-info">
             Email: <a href="mailto:anastasia.v.vlasova@gmail.com">@Annestezia</a><br>  
