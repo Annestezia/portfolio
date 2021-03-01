@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ProjectsList from './components/ProjectsList';
+import App from './components/App.js';
+import TagsList from './components/TagsList';
+import skills from './components/skills';
 // import SkillsList from './components/SkillsList';
 import * as serviceWorker from './serviceWorker';
-// import BadgesList from './Project/BadgesList';
-// import skills from '../src/assets/skills';
 
-ReactDOM.render(<ProjectsList />, document.getElementById('root'));
-// ReactDOM.render(<SkillsList />, document.getElementById('about__skills-list'));
-// ReactDOM.render(<BadgesList badges={skills}/>, document.getElementById('skills'));
+ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<TagsList tags={skills} parent="about__skill"/>, document.getElementById('about__skills-list'));
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
