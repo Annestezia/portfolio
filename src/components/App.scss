@@ -1,4 +1,4 @@
-// ========Colors========
+/* ========Colors========*/
 $paper:#f5f2f0;
 $hl-orange: #ffc10787;
 $sticky-note:#faee85;
@@ -6,7 +6,7 @@ $nav-color: #efefef;
 $dark: #444;
 $d-red:#b12a2a;
 $l-red:#e64a4a;
-// =========Sizes=============
+/* =========Sizes=============*/
 $base-fz:18px/23px;
 $image-size: 200px;// ~11.5rem;
 
@@ -20,11 +20,11 @@ html{
   scroll-behavior: smooth;
   position: relative;
   font-size: $base-fz;
+  scroll-padding-top: 92px;
 }
 
 body {
   font-family: BlinkMacSystemFont,-apple-system,'Roboto','Segoe UI',Helvetica,Arial;
-  font-family: monospace;
   background-color: #efefef;
   box-shadow: 0 0 3px 0px black;
   position: relative;
@@ -73,29 +73,20 @@ section {
   padding-top: 70px;
   background: repeating-linear-gradient(0deg, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;  
 }
-.anchor {
-  display: block;
-  position: relative;
-  top: -20vh;
-  visibility: hidden;
-}
-.tag{
-  padding: 3px 3px 3px;
-  border-radius:5px;  
-  margin:5px;
-  display: inline-block;
+// .anchor {
+//   // padding-top: 92px; 
+//   // display: block;
+//   // position: relative;
+//   // top: -20vh;
+//   // visibility: hidden;
+// }
 
-}
 
-.border{
-  border: 1px solid #444;
-  padding: 20px;
-  min-width: 260px;
-}
 .emphasis{
   color: $d-red;
 }
 
+/* ==========================Nav=======================================*/
 nav {
   position: fixed; 
   right: 0;
@@ -140,7 +131,7 @@ nav {
     color: $l-red;
   };
 }
-// ====================About====================
+/*====================About====================*/
 .about {
   display: flex;
   flex-direction: column;
@@ -154,7 +145,7 @@ nav {
   margin: 83px 40px 0;
 }
 .about__text{
-  padding: 20px 30px 76px;
+  padding: 20px;
   max-width: 800px;
   text-align: left;
   line-height: 1.4;
@@ -216,7 +207,7 @@ nav {
   }
 }
 
-// ============Projects==============
+/* ============Projects==============*/
 .projects {
   width: 100%;
   max-width: 1200px;
@@ -276,7 +267,7 @@ nav {
   text-align: left;
 }
 
-// =========more
+/*=========More========*/
 .more{
   width: 100%;
   overflow:visible;
@@ -289,7 +280,7 @@ nav {
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 100%;
-  height: 1rem;
+  height: 1.3rem;
   cursor: pointer;
 }
 .more--hidden:before{
@@ -318,7 +309,7 @@ nav {
 .project-tile__tag{
   border: 1px solid #444;
 }
-//==========contacts
+/*==========Contacts=======*/
 #contacts-section{
   margin-top: 10rem;
   .contacts-info{
@@ -354,7 +345,7 @@ footer {
 }
 
 
-// ===========Media QUERIES========
+/* ===========Media QUERIES========*/
 @media only screen and (min-width: 1600px){
   nav{
     max-width: 1600px;

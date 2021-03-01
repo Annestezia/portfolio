@@ -4,7 +4,6 @@ import './index.css';
 import App from './components/App.js';
 import TagsList from './components/TagsList';
 import skills from './components/skills';
-// import SkillsList from './components/SkillsList';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
