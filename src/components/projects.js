@@ -16,7 +16,7 @@ export default [
 	{ 
 		title:"Javascript Calculator",
 		description:"JavaScript Calculator for FreeCodeCamp Front End Development Libraries certification",
-		badges:['React.js'],
+		tags:['React.js'],
 		demo:"https://annestezia.github.io/fcc-calc/",
 		code:"https://github.com/Annestezia/fcc-calc",
 		img: js_calc_bg
@@ -24,7 +24,7 @@ export default [
 	{ 
 		title:"D3 barchart",
 		description:"Visualized GDP info, barchart, for FreeCodeCamp Data Visualization Certification",
-		badges:['D3.js', 'svg', 'data visualisation'],
+		tags:['D3.js', 'svg', 'data visualisation'],
 		demo:"https://annestezia.github.io/fcc-d3-barchart/",
 		code: "https://github.com/Annestezia/fcc-d3-barchart",
 		img: bar_chart_bg
@@ -32,7 +32,7 @@ export default [
 	{ 
 		title:"Twitch TV",
 		description:"See Twitch users list, find out who's streaming and what,  for FreeCodeCamp Front End Development Libraries certification",
-		badges:['Twitch API','jQuery'],
+		tags:['Twitch API','jQuery'],
 		demo:"https://annestezia.github.io/TwitchTV/",
 		code: "https://github.com/Annestezia/TwitchTV",
 		img: twitch_tv_bg
@@ -40,7 +40,7 @@ export default [
 	{
 		title:"Quote Machine",
 		description:"Get inspiring quotes, share your favorite one on Twitter, Project for FreeCodeCamp Front End Development Libraries certification",
-		badges:['Twitter API','Github API','Vanilla JS'],
+		tags:['Twitter API','Github API','Vanilla JS'],
 		demo:"https://annestezia.github.io/fcc-quote-machine/",
 		code: "https://github.com/Annestezia/fcc-quote-machine/",
 		img: quote_machine_bg
@@ -48,7 +48,7 @@ export default [
 	{
 		title:"Local Weather App",
 		description:"See location and current weather information based on your browser geolocation",
-		badges:['FCC Weather API','jQuery'],
+		tags:['FCC Weather API','jQuery'],
 		demo:"https://annestezia.github.io/Local-weather-app/",
 		code:"https://github.com/Annestezia/Local-weather-app/",
 		img: local_weather_app_bg
@@ -56,7 +56,7 @@ export default [
 	{
 		title:"Technical Documentation",
 		description:"Web Audio API Documentation, Project for FreeCodeCamp Responsive Web Design certification ",
-		badges:['prism.js','Vanilla JS','SCSS','adaptive'],
+		tags:['prism.js','Vanilla JS','SCSS','adaptive'],
 		demo:"https://codepen.io/Annestezia/full/aKZmQO",
 		code:"https://codepen.io/Annestezia/aKZmQO",
 		img: tech_docs_bg
@@ -64,7 +64,7 @@ export default [
 	{ 
 		title:"Markdown Previewer",
 		description:"Preview markup in editor, Github style, Markdown style,  for FreeCodeCamp Front End Development Libraries certification",
-		badges:['marked.js','React.js','adaptive'],
+		tags:['marked.js','React.js','adaptive'],
 		demo:"https://annestezia.github.io/fcc-markdown-previewer/",
 		code:"https://github.com/Annestezia/fcc-markdown-previewer/",
 		img: markdown_previewer_bg
@@ -72,7 +72,7 @@ export default [
 	{
 		title:"Wiki Viewer",
 		description:"Search Wiki articles, get Random article",
-		badges:['Wikipedia API', 'jQuery'],
+		tags:['Wikipedia API', 'jQuery'],
 		demo:"https://annestezia.github.io/WikiViewer/",
 		code: "https://github.com/Annestezia/WikiViewer/",
 		img: wiki_viewer_bg
@@ -80,7 +80,7 @@ export default [
 	{ 
 		title:"Drum Machine",
 		description:"Play your music with mouse or keyboard,  for FreeCodeCamp Front End Development Libraries certification",
-		badges:['React.js', 'SCSS'],
+		tags:['React.js', 'SCSS'],
 		demo:"https://annestezia.github.io/fcc-drum-machine/",
 		code:"https://github.com/Annestezia/fcc-drum-machine",
 		img: drum_machine_bg
@@ -88,7 +88,7 @@ export default [
 	{
 		title:"Landing Page EcoSquad",
 		description:'A simple web-page with fixed header and some animation, Project for FreeCodeCamp Responsive Web Design certification',
-		badges:['Feather icons', 'wow.js'],
+		tags:['Feather icons', 'wow.js'],
 		demo:"https://annestezia.github.io/fcc-lp2/",
 		code:"https://github.com/Annestezia/fcc-lp2/",
 		img: landing_page_v2_bg
@@ -96,7 +96,7 @@ export default [
 	{
 		title:"Tribute Page ",
 		description:"Tribute page Project for FreeCodeCamp Responsive Web Design certification ",
-		badges:['Bootstrap', 'Font Awesome'],
+		tags:['Bootstrap', 'Font Awesome'],
 		demo:"https://annestezia.github.io/TributePage/",
 		code:"https://github.com/Annestezia/TributePage",
 		img: tribute_page_bg
@@ -104,7 +104,7 @@ export default [
 	{
 		title:"Survey Form",
 		description:"Survey form: tell us about your preferences, Project for FreeCodeCamp Responsive Web Design certification",
-		badges:['HTML5', 'animate.css'],
+		tags:['HTML5', 'animate.css'],
 		demo:"https://codepen.io/Annestezia/full/JZKKVV",
 		code:"https://codepen.io/Annestezia/JZKKVV",
 		img: survey_form_bg
@@ -112,7 +112,7 @@ export default [
 	{
 		title:"Landing Page Smartwatch",
 		description:"A landing Page for smartwatch seller, Project for FreeCodeCamp Responsive Web Design certification",
-		badges:['Waypoints.js'],
+		tags:['Waypoints.js'],
 		demo:"https://annestezia.github.io/fcc-lp/",
 		code:"https://github.com/Annestezia/fcc-lp",
 		img: landing_page_bg
