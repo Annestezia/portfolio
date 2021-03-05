@@ -387,12 +387,14 @@ footer {
   }
   .about__details {
     // display: flex;
+    
     justify-content: normal;
     flex-direction: column;
   }
   .about__summary {
     margin-right: 0px;
-    padding: 20px;
+    padding-right: 0;
+    padding-bottom: 2.5rem;
     min-width: 260px;
     border-right: none;
     border-bottom: 1px solid #444;
@@ -400,6 +402,12 @@ footer {
 
   .about__skills-list {
     padding: 20px;
+  }
+  .about__skills{
+    padding-left: 0;
+    h3{
+      margin: 1.5rem 0;
+    }
   }
   .project-title{
     font-weight: bold;
