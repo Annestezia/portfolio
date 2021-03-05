@@ -1,1 +1,1 @@
-export default ['HTML5', 'CSS3', 'Javascript', 'React', 'jQuery','Git', 'SCSS', 'SPA', 'Adaptive design', 'API'];
+export default ['HTML5', 'CSS3', 'Javascript', 'React', 'jQuery','Git', 'SASS', 'SPA', 'responsive design', 'API'];
