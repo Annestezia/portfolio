@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import projects from './projects';
-import skills from './skills.js'
 import TagsList from './TagsList';
 import ToggleMore from './ToggleMore';
 
