@@ -23,7 +23,7 @@ export default [
 	},
 	{ 
 		title:"D3 barchart",
-		description:"Visualized GDP info, barchart, for FreeCodeCamp Data Visualization Certification",
+		description:"Visualized US GDP info, barchart, for FreeCodeCamp Data Visualization Certification",
 		tags:['D3.js', 'svg', 'data visualisation'],
 		demo:"https://annestezia.github.io/fcc-d3-barchart/",
 		code: "https://github.com/Annestezia/fcc-d3-barchart",
