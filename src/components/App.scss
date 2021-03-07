@@ -61,12 +61,16 @@ section {
     margin-top: 2rem;
   }
 }
+
 .wrap{
+
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
   // padding-top: 70px;
-  background: repeating-linear-gradient(0deg, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;  
+  background: repeating-linear-gradient(0deg, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;
+  background: -o-repeating-linear-gradient(bottom, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;background: repeating-linear-gradient(0deg, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;
+  // filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#7db9e8', endColorstr='#1e5799'); 
 }
 // .anchor {
 //   // padding-top: 92px; 
@@ -135,16 +139,12 @@ nav {
   align-items: center;
   min-height: 5em; 
   padding: 0 1.3rem;
-  // padding-bottom: 1.5rem;
-  // margin-bottom: 4.5rem; 
-
 }
 
 .about__text{
   margin: 2.5rem 0;  
   max-width: 700px;
   text-align: left;
-  // line-height: 1.4;
 }
 .about__details{
   display: flex;
@@ -237,7 +237,7 @@ nav {
   color: #444;
   background-color: #eeefff;
   box-shadow: 1px 1px 1px 1px #ccceee;
-  padding: 10px;
+  padding: 1rem;
   background-color: $sticky-note;
 }
 .project-tile__title{
