@@ -1,4 +1,3 @@
-@import 'spacing';
 @import 'colors';
 
 /* =========Sizes=============*/
@@ -15,7 +14,7 @@ html{
   scroll-behavior: smooth;
   position: relative;
   font-size: $base-fz;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -23,6 +22,7 @@ body {
   background-color: #efefef;
   box-shadow: 0 0 3px 0px black;
   position: relative;
+  padding-top: 80px;
 }
 
 a{
@@ -63,24 +63,12 @@ section {
 }
 
 .wrap{
-
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  // padding-top: 70px;
   background: repeating-linear-gradient(0deg, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;
   background: -o-repeating-linear-gradient(bottom, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;background: repeating-linear-gradient(0deg, #00000014 -1px, #05050301 1px, transparent 25px), #f5f2f0;
-  // filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#7db9e8', endColorstr='#1e5799'); 
 }
-// .anchor {
-//   // padding-top: 92px; 
-//   // display: block;
-//   // position: relative;
-//   // top: -20vh;
-//   // visibility: hidden;
-// }
-
-
 .emphasis{
   color: $d-red;
 }
@@ -96,7 +84,6 @@ nav {
   background-color: #444;
   z-index: 1; 
 }
-
 #navbar {
   display: flex;
   justify-content: center;
@@ -121,7 +108,6 @@ nav {
   transition: all 0.25s ease-in-out;
   svg{
     margin-right: 0.5rem;
-
   }    
   &:hover {
     box-shadow: inset 0 0 2px 0px #fefefea6;
@@ -132,6 +118,7 @@ nav {
   };
 }
 /*====================About====================*/
+
 .about {
   display: flex;
   flex-direction: column;
@@ -140,7 +127,6 @@ nav {
   min-height: 5em; 
   padding: 0 1.3rem;
 }
-
 .about__text{
   margin: 2.5rem 0;  
   max-width: 700px;
@@ -217,9 +203,6 @@ nav {
     margin: 2.5rem 0 2.5rem;
     position: relative;
     display: inline-block;
-    // &:after {
-    //   content: "_";
-    // }
   }
 }
 
@@ -228,7 +211,7 @@ nav {
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-auto-rows: minmax(300px, auto);
   grid-gap: 1.3rem;
-  margin: 10px;
+  margin: .5rem;
 }
 .project-tile{
   height: auto;
@@ -241,12 +224,11 @@ nav {
   background-color: $sticky-note;
 }
 .project-tile__title{
-  // padding: 20px 10px;
-  padding: 1rem;
+  padding: 1rem .5rem;
 }
 .project-tile__details{
   flex: 0 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
 }
 .project-tile__image{
   width: 100%;
@@ -256,11 +238,11 @@ nav {
 }
 .project-tile__buttons{
   display: flex;
-  padding: 10px 0px 10px;
+  padding: .7rem 0rem 0.7rem;
   justify-content:  center;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   .btn{
-    margin-right: 10px;
+    margin-right: .7rem;
   }
 }
 .project-tile__info{
@@ -291,8 +273,7 @@ nav {
   margin-right: 5px;
   border-top: 10px solid #444;
   border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
-  
+  border-left: 5px solid transparent;  
 }
 .more:before{
   content:'';
@@ -311,7 +292,7 @@ nav {
 }
 /*==========Contacts=======*/
 #contacts-section{
-  margin-top: 10rem;
+  margin-top: 5rem;
   .contacts-info{
     display: inline-block;
     text-align: left;
@@ -333,8 +314,8 @@ footer {
   background-color: #444;
   color: #efefef;
   // padding: 0 15px;  
-  margin-top: 70px;
-  padding: 10px 0;
+  margin-top: 5rem;
+  padding: 0.7rem 0;
 }
 
 .hidden {
@@ -373,11 +354,9 @@ footer {
   }
   .project-tile{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
   }
-  .wrap{
-    padding-top: 80px;
-  }
+
   .nav-link__text {
     display: flex;
     flex-direction: column;
