@@ -3,7 +3,7 @@ import drum_machine_bg from '../images/drum-machine-preview.png';
 import twitch_tv_bg from '../images/twitch-tv-preview.jpg';
 import markdown_previewer_bg from '../images/markdown-previewer-preview.png';
 import quote_machine_bg from '../images/quote-machine-preview.png';
-import local_weather_app_bg from '../images/local-weather-app-preview.jpg';
+import local_weather_app_bg from '../images/weather-app-preview.png';
 import survey_form_bg from '../images/survey-form-preview.png';
 import wiki_viewer_bg from '../images/wiki-viewer-preview.png';
 import landing_page_bg from '../images/landing-page-preview.png';
